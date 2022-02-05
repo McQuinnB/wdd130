@@ -1,0 +1,17 @@
+
+#main {
+    border: none;
+    border-radius: 0%;
+    min-width: 100%;
+    margin: 0em;
+}
+img {
+    width: 33%;
+    border: rgb(65, 65, 65) solid 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2em;
+}
+footer {
+    background-color: rgb(122, 122, 122);
+}
