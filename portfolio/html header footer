@@ -1,0 +1,37 @@
+Header
+        <a id="home_icon" href="home.html">
+            <img src="styles/icons/home.png" alt="Home Icon">
+        </a>
+        <a id="logo" href="home.html">
+            <img src="styles/icons/logo.png" alt="McB Logo">
+        </a>
+        <a id="menu icon" href="#">
+            <img src="styles/icons/menu.png" alt="Dropdown Menu">
+            <ul>
+                <li><a href="https://www.teepublic.com/user/mcquinnbelnap">Store</a></li>
+                <li><a href="passion_projects.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </a>
+Footer
+        <h4>© 2022 - McQuinn Belnap. All Rights Reserved</h4>
+        <a href="https://mcquinnb.github.io/wdd130/portfolio/site-plan.html">Site Plan</a>
+        <h5>mcquinn.belnap@gmail.com</h5>
+            <div>
+                <a href="https://facebook.com/mcquinn.belnap" target="_blank">
+                    <img src="styles/icons/facebook.png" alt="facebook icon">
+                </a>
+                <a href="https://www.instagram.com/mcquinnbelnap/" target="_blank">
+                    <img src="styles/icons/instagram.png" alt="instagram icon">
+                </a>
+                <a href="https://www.teepublic.com/user/mcquinnbelnap" target="_blank">
+                    <img src="styles/icons/teepublic.png" alt="teepublic icon">
+                </a>
+                <a href="https://www.deviantart.com/mcquinnb" target="_blank">
+                    <img src="styles/icons/deviantart.png" alt="twitter icon">
+                </a>
+                <a href="https://www.artstation.com/mcquinnbelnap2" target="_blank">
+                    <img src="styles/icons/artstation.png" alt="artstation icon">
+                </a>
+            </div>

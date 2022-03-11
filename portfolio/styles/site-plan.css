@@ -30,11 +30,11 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 @font-face {
     font-family: Jose;
-    src: url(JosefinSansBold.ttf);
+    src: url(fonts/JosefinSansBold.ttf);
 }
 @font-face {
     font-family: Madeleina;
-    src: url(MadeleinaSans-2VY3.ttf);
+    src: url(fonts/MadeleinaSans-2VY3.ttf);
 }
 body {
   max-width: 1200px;
