@@ -17,7 +17,7 @@ Header
 Footer
         <h4>© 2022 - McQuinn Belnap. All Rights Reserved</h4>
         <a href="https://mcquinnb.github.io/wdd130/portfolio/site-plan.html">Site Plan</a>
-        <h5>mcquinn.belnap@gmail.com</h5>
+        <a href="mailto:mcquinn.belnap@gmail.com">mcquinn.belnap@gmail.com</a>
             <div>
                 <a href="https://facebook.com/mcquinn.belnap" target="_blank">
                     <img src="styles/icons/facebook.png" alt="facebook icon">
