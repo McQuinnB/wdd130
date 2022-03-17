@@ -325,7 +325,7 @@ h4 {
 .as_image:hover {
     filter: invert(100%) opacity(40%);
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 900px) {
 footer {
     height: 150px;
     clear: both;
