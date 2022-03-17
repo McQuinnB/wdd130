@@ -1,5 +1,320 @@
-img {
-    width: 30%;
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@font-face {
+    font-family: Madeleina;
+    src: url(fonts/MadeleinaSans-2VY3.ttf);
+}
+@font-face {
+    font-family: Wildepth;
+    src: url(fonts/HeyNovember-eZZ2l.ttf);
+}
+@font-face {
+    font-family: Apa;
+    src: url(fonts/ApaBedone1112-qZXj5.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 100px;
+    background-color: black;
+}
+header {
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+    height: 100px;
+    z-index: 2;
+}
+ul {
+    display: none;
+}
+ul:hover {
+    display: flex;
+    font-family: Madeliena;
+}
+.home_icon {
+    width: 30px;
+    filter: invert(100%) opacity(20%);
+}
+.home_icon:hover {
+    filter: invert(100%) opacity(40%);
+}
+.logo {
+    width: 100px;
+}
+.menu_icon {
+    width: 25px;
+    filter: invert(100%) opacity(20%);
+}
+.menu_icon:hover {
+    filter: invert(100%) opacity(40%);
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.title {
+    color: white;
+    background-color: #3b3b3b;
+    padding: 3vw;
+    border-radius: 35px;
+    grid-column-start: 4;
+    grid-row: 1/3;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid #cacaca;
+    box-shadow: #6e6e6e 0px 0px 20px;
+    justify-self: center;
+    align-self: center;
+}
+h1 {
+    font-size: 8vw;
+    font-family: Apa;
+    margin: 0;
+    margin-bottom: -1vw;
+}
+h2 {
+    font-family: Madeleina;
+}
+.by {
+    font-size: 4vw;
+    font-family: Madeleina;
+    margin: 0;
+}
+.name {
+    font-size: 5vw;
+    font-family: Madeleina;
+    margin: 0;
+    color: #ffd000;
+}
+.background_image {
+    grid-column: 1/14;
+    grid-row: 1/8;
+    width: 100%;
+    margin: 0;
+}
+.portfolio_links {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    z-index: 1;
+    margin-top: -70vw;
+    margin-bottom: 21vw;
+    overflow: auto;
+}
+h3 {
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+.wildepth {
+    text-decoration: none;
+    width: 100%;
+    grid-column: 2/7;
+    padding: 5px;
+    padding-top: 2vw;
+    margin: 0 auto;
+}
+.wildepth:hover {
+    background-color: #6e6e6e;
+    border-radius: 20px;
+}
+.lion {
+    width: 90%;
+    z-index: 1;
+    border: #6e6e6e solid 4px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: black 0px 0px 20px;
+}
+.w {
+    background-color: black;
+    color: white;
+    font-family: Wildepth;
+    font-size: 6vw;
+    border: #6e6e6e solid 4px;
+    box-shadow: black 0px 0px 20px;
+}
+.passion_projects{
+    width: 100%;
+    text-decoration: none;
+    grid-column: 8/13;
+    padding: 5px;
+    margin: 0 auto;
+    padding-top: 2vw;
+}
+.passion_projects:hover {
+    background-color: #b97e62;
+    border-radius: 20px;
+}
+.lilly {
+    width: 90%;
+    z-index: 1;
+    border: #b97e62 solid 4px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: black 0px 0px 20px;
+}
+.pp {
+    font-family: Apa;
+    font-size: 4vw;
+    background-color: #f6c29d;
+    border: #b97e62 solid 4px;
+    color: #795341;
+    box-shadow: black 0px 0px 20px;
+    padding: 2vw;
 }
 
+
+footer {
+    background-color: #3b3b3b;
+    position: relative;
+    height: 150px;
+    margin-top: -100px;
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 4;
+}
+h4 {
+    text-align: center;
+    font-family: Madeleina;
+    font-size: 20px;
+    grid-column: 1/8;
+    grid-row: 3/4;
+    margin: 0 auto;
+    color: #6e6e6e;
+}
+.site_plan {
+    font-family: Madeleina;
+    grid-column: 1/8;
+    grid-row: 5/6;
+    margin: 0 auto;
+    color: #6e6e6e;
+    text-decoration: none;
+    text-align: center;
+}
+.site_plan:hover {
+    color: #cacaca;
+}
+.email {
+    font-family: Madeleina;
+    font-size: 20px;
+    grid-column: 13/18;
+    grid-row: 2/3;
+    text-align: center;
+    margin: 0 auto;
+    color: #6e6e6e;
+    text-decoration: none;
+}
+.email:hover {
+    color: #cacaca;
+}
+
+.facebook {
+    width: 100%;
+    grid-column: 13/14;
+    grid-row: 3/5;
+}
+.fb_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.fb_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+.instagram {
+    width: 100%;
+    grid-column: 14/15;
+    grid-row: 3/5;
+}
+.ig_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.ig_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+.teepublic {
+    width: 100%;
+    grid-column: 15/16;
+    grid-row: 3/5;
+}
+.tp_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.tp_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+.deviantart {
+    width: 100%;
+    grid-column: 16/17;
+    grid-row: 3/5;
+}
+.da_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.da_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+.artstation {
+    width: 100%;
+    grid-column: 17/18;
+    grid-row: 3/5;
+}
+.as_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.as_image:hover {
+    filter: invert(100%) opacity(40%);
+}
 @media screen and (max-width: 900px) {
