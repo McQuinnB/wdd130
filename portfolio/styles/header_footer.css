@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@font-face {
+    font-family: Madeleina;
+    src: url(fonts/MadeleinaSans-2VY3.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 100px;
+    background-color: rgb(39, 39, 39);
+}
+header {
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+    height: 100px;
+    z-index: 2;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+  }
+  .menu_items {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #3b3b3b;
+    min-width: 160px;
+    box-shadow: black 0px 8px 16px;
+    z-index: 3;
+  }
+  
+  .menu_items a {
+    color: white;
+    font-family: Madeleina;
+    font-size: 25px;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .menu_items a:hover {background-color: black;}
+  
+  .menu:hover .menu_items {display: block;}
+
+.home_icon {
+    width: 30px;
+    filter: invert(100%) opacity(20%);
+}
+.home_icon:hover {
+    filter: invert(100%) opacity(40%);
+}
+.logo {
+    width: 100px;
+}
+.menu_icon {
+    width: 25px;
+    filter: invert(100%) opacity(20%);
+}
+.menu_icon:hover {
+    filter: invert(100%) opacity(40%);
+}
+
+
+
+footer {
+    background-color: #3b3b3b;
+    position: relative;
+    height: 150px;
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 4;
+}
+h4 {
+    text-align: center;
+    font-family: Madeleina;
+    font-size: 20px;
+    grid-column: 2/9;
+    grid-row: 3/4;
+    margin: 0 auto;
+    color: #6e6e6e;
+}
+.site_plan {
+    font-family: Madeleina;
+    grid-column: 10/17;
+    grid-row: 5/6;
+    margin: 0 auto;
+    color: #6e6e6e;
+    text-decoration: none;
+    text-align: center;
+}
+.site_plan:hover {
+    color: #cacaca;
+}
+.email {
+    font-family: Madeleina;
+    font-size: 25px;
+    grid-column: 10/17;
+    grid-row: 2/3;
+    text-align: center;
+    margin: 0 auto;
+    color: #6e6e6e;
+    text-decoration: none;
+}
+.email:hover {
+    color: #cacaca;
+}
+
+.facebook {
+    width: 100%;
+    grid-column: 11/12;
+    grid-row: 3/5;
+}
+.fb_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.fb_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+.instagram {
+    width: 100%;
+    grid-column: 12/13;
+    grid-row: 3/5;
+}
+.ig_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.ig_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+.teepublic {
+    width: 100%;
+    grid-column: 13/14;
+    grid-row: 3/5;
+}
+.tp_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.tp_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+.deviantart {
+    width: 100%;
+    grid-column: 14/15;
+    grid-row: 3/5;
+}
+.da_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.da_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+.artstation {
+    width: 100%;
+    grid-column: 15/16;
+    grid-row: 3/5;
+}
+.as_image {
+    width: 35px;
+    filter: invert(100%) opacity(20%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.as_image:hover {
+    filter: invert(100%) opacity(40%);
+}
+@media screen and (max-width: 900px) {
+footer {
+    height: 150px;
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.email {
+    grid-column: 2/7;
+    grid-row: 2/3;
+    font-size: 20px;
+}
+.facebook {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.instagram {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.teepublic {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.deviantart {
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+.artstation {
+    grid-column: 6/7;
+    grid-row: 3/4;
+}
+h4 {
+    grid-column: 2/7;
+    grid-row: 4/5;
+    font-size: 12px;
+}
+.site_plan {
+    grid-column: 2/7;
+    grid-row: 5/6;
+}
+}
