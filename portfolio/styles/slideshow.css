@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Madeleina;
+    src: url(fonts/MadeleinaSans-2VY3.ttf);
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+main {
+    position: relative;
+    padding: 10vw;
+  }
+  
+  /* Hide the images by default */
+.full_images {
+    display: none;
+  }
+.full_jpg {
+  border-radius: 5px;
+  box-shadow: black 0px 0px 5vw;
+}
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 1vw;
+  }
+  .prev {
+    left: 1vw;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    color: white;
+  }
+  
+  .title {
+    color: #d6d6d6;
+    font-size: 30px;
+    font-family: Madeleina;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+  }
+  .description {
+    color: #a1a1a1;
+    font-size: 20px;
+    font-family: Madeleina;
+    padding-bottom: 3vw;
+    padding-left: 2vw;
+  }
+  .description2 {
+    color: #a1a1a1;
+    font-size: 20px;
+    font-family: Madeleina;
+    margin-top: -2vw;
+    padding-bottom: 3vw;
+    padding-left: 2vw;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* 13 columns side by side */
+  .column {
+    float: left;
+    width: 7.69%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .thumbnails {
+    opacity: 0.6;
+    filter: saturate(0%);
+    padding: 3px;
+    border-radius: 5px;
+  }
+  
+  .active,
+  .thumbnails:hover {
+    opacity: 1;
+    filter: saturate(100%);
+  }
