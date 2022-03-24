@@ -84,8 +84,7 @@ h3 {
 .lion {
     width: 90%;
     z-index: 1;
-    outline: #3d3d3d solid 1vw;
-    outline-offset: -1vw;
+    border: #3d3d3d solid 1vw;
     border-radius: 3vw;
     margin: 0 auto;
     display: flex;
@@ -114,8 +113,7 @@ h3 {
 .cookies {
     width: 90%;
     z-index: 1;
-    outline: rgb(157,131,106) solid 1vw;
-    outline-offset: -1vw;
+    border: rgb(157,131,106) solid 1vw;
     border-radius: 3vw;
     margin: 0 auto;
     display: flex;
