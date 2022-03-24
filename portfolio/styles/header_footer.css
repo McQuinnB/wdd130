@@ -3,6 +3,10 @@
     font-family: Madeleina;
     src: url(fonts/MadeleinaSans-2VY3.ttf);
 }
+@font-face {
+    font-family: Jose;
+    src: url(fonts/JosefinSansBold.ttf);
+}
 * {
     margin: 0;
     padding: 0;

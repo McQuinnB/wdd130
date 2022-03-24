@@ -10,6 +10,8 @@
 main {
     position: relative;
     padding: 10vw;
+    max-width: 1000px;
+    justify-content: space-around;
   }
   
   /* Hide the images by default */
@@ -19,6 +21,7 @@ main {
 .full_jpg {
   border-radius: 5px;
   box-shadow: black 0px 0px 5vw;
+  margin-bottom: 2vw;
 }
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {

@@ -1,0 +1,73 @@
+main {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-family: Madeleina;
+}
+h2 {
+    font-family: Jose;
+    font-size: 35px;
+    color: rgb(150, 150, 150);
+    margin-bottom: 4vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 200px;
+    padding-bottom: 20px;
+    border-bottom: rgb(150, 150, 150) solid 3px;
+}
+h3 {
+    font-size: 25px;
+    color: rgb(209, 209, 209);
+    margin: 4vw;
+}
+.love {
+    font-size: 40px;
+    color: white;
+}
+h5 {
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+    margin: 1vw;
+    margin-top: 50px;
+}
+p {
+    font-size: 26px;
+    color: rgb(150, 150, 150);
+    margin-bottom: 3vw;
+}
+.past_clients {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 5vw;
+}
+.readlee {
+    grid-column: 1/2;
+}
+.the_freind {
+    grid-column: 2/3;
+}
+img {
+    width: 100%;
+}
+.last_line {
+    margin-bottom: 200px;
+}
+@media screen and (max-width: 900px) {
+
+    .past_clients {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .readlee {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .the_freind {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+}
