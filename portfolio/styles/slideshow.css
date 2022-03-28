@@ -12,6 +12,7 @@ main {
     padding: 10vw;
     max-width: 1000px;
     justify-content: space-around;
+    margin: 0 auto;
   }
   
   /* Hide the images by default */
