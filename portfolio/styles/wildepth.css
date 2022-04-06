@@ -54,13 +54,49 @@ main {
     align-items: center;
     justify-content: space-around;
     margin: 5vw;
-    grid-gap: 1vw;
+    grid-gap: 2vw;
 }
 main img {
     width: 100%;
     border-radius: 1vw;
+    box-shadow: black 0px 0px 2vw;
 }
 main img:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
-
+.lion_mobile {
+    display: none;
+}
+.lion_mobile_img {
+    display: none;
+}
+@media screen and (max-width: 900px) {
+section{
+    display: block;
+    padding: 5vw;
+}
+.lionscape {
+    display: none;
+}
+h1 {
+    font-size: 20vw;
+    padding: 5vw;
+}
+h2 {
+    font-size: 28px;
+    padding: 3vw;
+}
+.lionscape {
+    margin-top: 5vw;
+}
+main {
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 4vw;
+}
+.lion_mobile {
+    display: inline;
+}
+.lion_mobile_img {
+    display: inline;
+}
+}
